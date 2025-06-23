@@ -44,6 +44,8 @@ st.set_page_config(
     page_title="MyCAF Address Validator",
     page_icon="📦"
 )
+
+st.link_button("Upload from Excel", "https://lcuxqvaavajnzadzbyslaj.streamlit.app/")
 st.title("📦 MyCAF Address Validator")
 
 with st.form("address_form"):
