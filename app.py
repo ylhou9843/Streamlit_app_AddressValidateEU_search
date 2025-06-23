@@ -40,7 +40,12 @@ def format_address_easypost(response):
         return "Invalid address or could not be verified"
 
 # Streamlit UI
-st.title("📦 EasyPost Address Validator")
+st.set_page_config(
+    page_title="EasyPost Address Validator",
+    page_icon="📦",
+    layout="wide"
+)
+st.title("### 📦 EasyPost Address Validator")
 
 with st.form("address_form"):
     address1 = st.text_input("Address Line 1", "")
