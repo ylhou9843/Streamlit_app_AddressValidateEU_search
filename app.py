@@ -41,10 +41,10 @@ def format_address_easypost(response):
 
 # Streamlit UI
 st.set_page_config(
-    page_title="EasyPost Address Validator",
+    page_title="MyCAF Address Validator",
     page_icon="📦"
 )
-st.title("📦 EasyPost Address Validator")
+st.title("📦 MyCAF Address Validator")
 
 with st.form("address_form"):
     address1 = st.text_input("Address Line 1", "")
