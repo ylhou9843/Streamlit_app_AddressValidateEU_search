@@ -71,7 +71,7 @@ if submitted:
             result, confidence = validate_address_easypost(user_address)
             formatted_address = format_address_easypost(result)
 
-            st.success("Done")
+            st.success("Validation completed!")
             st.markdown(f"**Formatted Address:** {formatted_address}")
             st.markdown(f"**Confidence:** {confidence}")
             # st.json(result)  # Show raw API result if needed
